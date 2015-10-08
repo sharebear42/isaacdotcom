@@ -43,11 +43,11 @@
                 <td class="auto-style3">
                     <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="auto-style3" RenderingMode="Table">
                         <Items>
-                            <asp:MenuItem NavigateUrl="Index.aspx" Text="Home" Value="Home"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="Engineering.aspx" Text="Engineering" Value="Engineering"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="GamesAndArt.aspx" Text="Games and Art" Value="Games and Art"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="ScienceProjects.aspx" Text="Science Projects" Value="Science Projects"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="Contacts.aspx" Text="Contact" Value="Contact"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="Index.html" Text="Home" Value="Home"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="Engineering.html" Text="Engineering" Value="Engineering"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="GamesAndArt.html" Text="Games and Art" Value="Games and Art"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="ScienceProjects.html" Text="Science Projects" Value="Science Projects"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="Contacts.html" Text="Contact" Value="Contact"></asp:MenuItem>
                         </Items>
                     </asp:Menu>
                 </td>
