@@ -1,0 +1,62 @@
+﻿.jumbotron {
+    background-image: url('../img/Sunflower.gif');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:-10px;
+}
+
+.jumbotron h1 {
+  color: #100000;
+  font-size: 45px;  
+  font-family: 'Shift', sans-serif;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #100000;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+.jumbotron a {
+    font-size: 20px;
+    color: #00b0ff;
+}
+.learn-more {
+  background-color: #D3D3D3;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.cool-pictures {
+    background-color: #DCDCDC;
+}
+
+.cool-pictures h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.cool-pictures p {
+    font-size: 15px;
+    margin-top: 13px;
+}
+
+.cool-pictures a {
+    color: #00b0ff;
+}
+

@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="css_MasterPage" %>
+
+<!DOCTYPE html>
+
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+
+        .auto-style2 {
+        }
+
+        .auto-style3 {
+            height: 48px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .auto-style3 a {
+            display: block;
+            width: 175px;
+            text-align: center;
+            color: #5a5a5a;
+        }
+    </style>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="auto-style3" RenderingMode="Table">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="Index.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="Engineering.aspx" Text="Engineering" Value="Engineering"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="GamesAndArt.aspx" Text="Games and Art" Value="Games and Art"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="ScienceProjects.aspx" Text="Science Projects" Value="Science Projects"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="Contacts.aspx" Text="Contact" Value="Contact"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3" style="text-align: center; background-color: #FFFFFF">Copyright 2015 Isaac Schumann</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</!--html>
